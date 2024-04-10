@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "cppdbg",
+            "request": "launch",
+            "name": "Run All Tests",
+            "program": "${workspaceRoot}/build/run_tests",
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "Build"
+        },
+    ],
+}
